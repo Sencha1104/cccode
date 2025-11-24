@@ -66,7 +66,11 @@ td.empty {
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
-td:hover {
+.char tr td:hover {
+    background-color: #dddddd;
+}
+
+.lang tr:hover {
     background-color: #dddddd;
 }
 .side {
@@ -112,4 +116,5 @@ td:hover {
 
 .highlight {
     background-color: #ff6 !important;
+
 }
