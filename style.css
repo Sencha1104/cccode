@@ -141,8 +141,22 @@ a.button {
     align-items: right;
     width: 130px;
 }
+a.ic_button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: #aaf;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+    align-items: right;
+    width: 24px;
+}
 
 header h1 {
     flex-grow: 1;
     text-align: center;
 }
+
