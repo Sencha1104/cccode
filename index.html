@@ -118,12 +118,13 @@ function hoverChar(element) {
         $('.display').css('margin-top', '0px');
     }
     $('.transcription').text("文字転写：" + ($(this).data('changed') || $(this).text()));
-    $('.this_lang').text($(this).data('lang') + "語");
+    $('.this_lang').text($(this).data('lang'));
     $('.code').text(code);
 }
 </script>
 
 </html>
+
 
 
 
