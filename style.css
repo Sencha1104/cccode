@@ -39,6 +39,7 @@ footer {
     padding: 20px 0;
     width: 100%;
     bottom: 0;
+    display: flex;
 }
 
 .container div {
@@ -159,5 +160,6 @@ header h1 {
     flex-grow: 1;
     text-align: center;
 }
+
 
 
