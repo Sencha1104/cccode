@@ -40,6 +40,8 @@ footer {
     width: 100%;
     bottom: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container div {
@@ -160,6 +162,11 @@ header h1 {
     flex-grow: 1;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 
 
